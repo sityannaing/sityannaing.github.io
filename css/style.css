@@ -1,0 +1,40 @@
+.desc a{
+    color: red;
+    text-decoration: none;
+}
+
+.child > a {
+    color: green;
+}
+
+a:link{
+    color: red;
+}
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: brown;
+}
+
+p:target{
+    color: red;
+    border: 1px solid black;
+}
+
+div:target{
+    color: green;
+}
+
+.borderone{
+    border: 10px solid red;
+}
+
+.bordertwo{
+    border: left 20px solid yellow;
+}
