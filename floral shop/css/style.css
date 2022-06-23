@@ -1,0 +1,141 @@
+.navbar ul{
+    float: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    color: aqua;
+    transition-duration: 0.4s;
+    letter-spacing: 5px;
+}
+
+.cart{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -15px;
+    left: -50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.bgimg{
+    width: 100%;
+}
+
+.bgtext{
+    position: absolute;
+    top: 250;
+    left: 100px;
+}
+
+.bgtext2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: unset;
+    margin-bottom: 25px;
+}
+
+.btn{
+    margin-top: 15px;
+    border: 1px solid skyblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.btn:hover{
+    transition-duration: .4s;
+    cursor: pointer;
+    color: aqua;
+}
+
+.packaging_header{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.packaging_img{
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 40%;
+    float: left;
+}
+
+.packaging_text{
+    position: relative;
+    left: 50px;
+    width: 90%;
+}
+
+.packaging_text h2{
+    text-transform: uppercase;
+}
+
+.packaging_icon{
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.packaging_text_header{
+    margin-top: 25px;
+}
+
+.clear{
+    clear: both;
+}
+
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #e4ecee;
+    margin-top: ;
+}
+
+.service_text{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.service_header{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb( 61, 58, 58);
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer p{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.contact_header{
+    text-align: center;
+    background-color: gray;
+    margin-top: 20px;
+}
