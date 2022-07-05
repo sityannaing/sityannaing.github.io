@@ -8,20 +8,39 @@
 </head>
 <body>
     <label for="name">Name</label>
-    <input type="text" id="name">
+    <input type="text" name="name" id="name">
     <br><br>
     <label for="email">Email</label>
-    <input type="text" id="email">
+    <input type="text" name="email" id="email">
     <br><br>
     <button onclick="add()">Add</button>
     </table>
+    <br><br>
+    <table border="1" cellspacing="0" cellpadding="20">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
 
+        </tbody>
+    </table>
     <script>
+        let j = 1;
         function add(){
             let name = document.querySelector('#name').value;
             console.log(name);
             let email = document.querySelector('#email').value;
             console.log(email);
+            let tbody = document.querySelector('#tbody');
+            tbody.innerHTML += `<tr>
+                        <td>${j++}</td>
+                        <td>${name}</td>
+                        <td>${email}</td>
+                    </tr>`
         }
     </script>
 </body>
